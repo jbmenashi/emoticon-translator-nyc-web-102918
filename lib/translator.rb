@@ -5,10 +5,9 @@ def load_library(file_path)
     "get_meaning" => {},
     "get_emoticon" => {}
   }
-  
-  
   emoticons =
   YAML.load_file(file_path)
+  
 end
 
 def get_japanese_emoticon
